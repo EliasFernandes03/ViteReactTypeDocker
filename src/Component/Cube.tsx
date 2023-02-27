@@ -39,7 +39,7 @@ const Cube: React.FC = () => {
 
   return (
     <points 
-    // here utilize cubeRef to translate the cube
+    // here utilize cubeRef to rotate the cube
     geometry={points} scale={[2,2,2]}>
       <pointsMaterial vertexColors={true} size={0.15} />
     </points>
